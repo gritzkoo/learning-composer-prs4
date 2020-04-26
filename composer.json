@@ -1,0 +1,21 @@
+{
+    "name": "gritz/composer",
+    "description": "testing autoload psr4 configs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gritzko D. Kleiner",
+            "email": "gritzkoo@hotmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
